@@ -25,7 +25,15 @@ The repo also requires cv2, tensorboardX >= 1.7
 
 ### Prepare data
 
-Please download HMDB51 and UCF101 dataset along with their three splits, then use /ProcessData to extract frames from video.
+Please download HMDB51 and UCF101 dataset along with their three splits, then use `/ProcessData` to extract frames from video.
+
+- HMDB51:
+  - Dataset: [HMDB51 (RAR)](https://serre-lab.clps.brown.edu/wp-content/uploads/2013/10/hmdb51_org.rar)
+  - Official three splits: [test_train_splits.rar](https://serre-lab.clps.brown.edu/wp-content/uploads/2013/10/test_train_splits.rar)
+
+- UCF101:
+  - Dataset: [UCF101 (RAR)](https://www.crcv.ucf.edu/data/UCF101/UCF101.rar)
+  - Official train/test splits: [UCF101TrainTestSplits-RecognitionTask.zip](https://www.crcv.ucf.edu/data/UCF101/UCF101TrainTestSplits-RecognitionTask.zip)
 
 ### Self-supervised training
 
