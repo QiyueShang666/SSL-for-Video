@@ -1,6 +1,9 @@
 ## SSL For Video Understanding
 
-This repository completes the video Self-Supervised Learning framework based on CPC idea and Vision Transformer 
+This repository completes the video Self-Supervised Learning framework based on CPC idea and Vision Transformer
+<p align="center">
+  <img src="assets/Architecture.pdf" alt="Architecture" width="600">
+</p>
 
 
 ### Finetune Results
