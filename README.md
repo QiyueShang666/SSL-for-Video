@@ -5,7 +5,7 @@ This repository completes the video Self-Supervised Learning framework based on 
 
 ### Finetune Results
 
-Best Performance result from this implementation(5pred3+7pred3):
+Best Performance result from this implementation(**5pred3 + 7pred3**):
 
 | Pretrain Dataset| Resolution | Backbone | Finetune Acc@top-1 (UCF101) | Finetune Acc@Top-1 (HMDB51) |
 |----|----|----|----|----|
