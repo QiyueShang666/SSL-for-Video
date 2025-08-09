@@ -1,20 +1,22 @@
-## Contrastive Predictive Learning with Transformer for Video Representation Learning
+## SSL For Video Understanding
 
 This repository completes the video Self-Supervised Learning framework based on CPC idea and Vision Transformer 
 
 
-### CPCTR Results
+### Finetune Results
 
 Best Performance result from this implementation(5pred3+7pred3):
 
 | Pretrain Dataset| Resolution | Backbone | Finetune Acc@top-1 (UCF101) | Finetune Acc@Top-1 (HMDB51) |
 |----|----|----|----|----|
-|UCF101|224x224|2d-R18| <div align="center">63.5</div> |<div align="center">34.6</div>|
+|UCF101|224x224|2d-R18+Transformer| <div align="center">63.5</div> |<div align="center">34.6</div>|
+|UCF101|196x196|2d-R18+Transformer| <div align="center">60.3</div> |<div align="center">32.1</div>|
+|UCF101|128x128|2d-R18+Transformer| <div align="center">58.9</div> |<div align="center">29.9</div>|
 
 
 ### Installation
 
-The implementation should work with python >= 3.6, pytorch >= 0.4, torchvision >= 0.2.2. 
+The implementation should work with python >= 3.8, pytorch >= 0.4, torchvision >= 0.2.2. 
 
 The repo also requires cv2, tensorboardX >= 1.7, joblib, tqdm, ipdb.
 
@@ -22,7 +24,7 @@ The repo also requires cv2, tensorboardX >= 1.7, joblib, tqdm, ipdb.
 
 Please download HMDB51 and UCF101 dataset along with their three splits, then use /ProcessData to extract frames from video.
 
-### Self-supervised training (CPCTR)
+### Self-supervised training
 
 Change directory `cd CPCTrans/CPCTrans/`
 
@@ -31,7 +33,7 @@ Change directory `cd CPCTrans/CPCTrans/`
   python main.py --net resnet18 --dataset ucf101 --batch_size 16 --img_dim 224 --epochs 300 --num_seq 5 --pred_step 3
   ```
 
-### Evaluation: supervised action classification
+### Evaluation: Supervised Action Classification
 
 Change directory `cd CPCTrans/Evaluate/`
 
