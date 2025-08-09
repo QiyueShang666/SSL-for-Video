@@ -18,7 +18,7 @@ Best Performance result from this implementation(5pred3+7pred3):
 
 The implementation should work with python >= 3.8, pytorch >= 0.4, torchvision >= 0.2.2. 
 
-The repo also requires cv2, tensorboardX >= 1.7, joblib, tqdm, ipdb.
+The repo also requires cv2, tensorboardX >= 1.7
 
 ### Prepare data
 
