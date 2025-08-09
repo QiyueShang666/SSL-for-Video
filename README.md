@@ -68,7 +68,10 @@ Download link:
   ```
   python test.py --net resnet18 --dataset ucf101 --batch_size 16 --img_dim 224 --test {finetune_model.pth.tar}
   ```
-
+## Comparison with Other Self-Supervised Learning Method
+<p align="center">
+  <img src="Comparison.png" alt="Architecture" width="600">
+</p>
 
 
 
