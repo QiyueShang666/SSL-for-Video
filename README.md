@@ -1,15 +1,15 @@
 ## Contrastive Predictive Learning with Transformer for Video Representation Learning
 
-This repository contains the implementation of Contrastive Predictive Learning with Transformer (CPCTR). 
+This repository completes the video Self-Supervised Learning framework based on CPC idea and Vision Transformer 
 
 
 ### CPCTR Results
 
-Performance result from this implementation:
+Best Performance result from this implementation(5pred3+7pred3):
 
-| Pretrain Dataset| Resolution | Backbone | Finetune Acc@1 (UCF101) | Finetune Acc@1 (HMDB51) |
+| Pretrain Dataset| Resolution | Backbone | Finetune Acc@top-1 (UCF101) | Finetune Acc@Top-1 (HMDB51) |
 |----|----|----|----|----|
-|UCF101|128x128|2d-R18|99.3|82.4|
+|UCF101|224x224|2d-R18|63.5|34.6|
 
 
 ### Installation
