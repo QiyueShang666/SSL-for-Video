@@ -51,7 +51,7 @@ Download link:
 
 - UCF101 finetune:
   - [2D-ResNet18 — UCF101 — 224×224 — Finetune](https://drive.google.com/file/d/1htAxdKIYCJhSM4QVbhM-eH0uG9-Ry3sz/view?usp=drive_link)
-  - 
+
 ## Test Classification Ability
 * example (continued): test the finetuned model (replace `{finetune_model.pth.tar}` with finetuned classifier model)
   ```
