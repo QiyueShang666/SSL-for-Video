@@ -42,6 +42,17 @@ Change directory `cd CPCTrans/Evaluate/`
   python test.py --net resnet18 --dataset ucf101 --batch_size 16 --img_dim 224 --pretrain {model.pth.tar} --train_what ft --epochs 300 --num_seq 7 --pred_step 3
   ```
 
+## 🔗 Pretrained / finetuned weights
+
+Download link:
+
+- UCF101 pretrain (self-supervised):
+  - [2D-ResNet18 — UCF101 — 224×224 — SSL](https://drive.google.com/file/d/1XHIbSzbMaVXcBn86Qu5LbIKo2edzOphN/view?usp=drive_link)
+
+- UCF101 finetune:
+  - [2D-ResNet18 — UCF101 — 224×224 — Finetune](https://drive.google.com/file/d/1htAxdKIYCJhSM4QVbhM-eH0uG9-Ry3sz/view?usp=drive_link)
+  - 
+## Test Classification Ability
 * example (continued): test the finetuned model (replace `{finetune_model.pth.tar}` with finetuned classifier model)
   ```
   python test.py --net resnet18 --dataset ucf101 --batch_size 16 --img_dim 224 --test {finetune_model.pth.tar}
