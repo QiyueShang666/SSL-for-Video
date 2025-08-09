@@ -2,7 +2,7 @@
 
 This repository completes the video Self-Supervised Learning framework based on CPC idea and Vision Transformer
 <p align="center">
-  <img src="Architecture.png" alt="Architecture" width="600">
+  <img src="Arch.png" alt="Architecture" width="600">
 </p>
 
 
